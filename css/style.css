@@ -206,7 +206,7 @@ header {
 }
 .cardd {
   border: none;
-  margin-left: 50px;
+  margin-left: 20px;
   margin-top: 50px;
 }
 .cardd .card-body {
@@ -235,8 +235,8 @@ header {
   font-size: 18px;
   line-height: 21px;
   border-radius: 10px;
-  padding: 10px 120px;
-  margin-left: -15px;
+  padding: 10px 125px;
+  margin-left: 0px;
 }
 .cardd .your-class {
   -webkit-filter: drop-shadow(5px 10px 30px rgba(0, 0, 0, 0.25));
@@ -294,6 +294,223 @@ header {
           flex-direction: row;
   -ms-flex-wrap: wrap;
       flex-wrap: wrap;
+}
+.exchange-refund .exchange-refund-header h2 {
+  font-family: 'Kudryashev Display';
+  color: black;
+  font-size: 50px;
+}
+.exchange-refund .exchange-refund-body p {
+  font-family: 'Monesta';
+  color: black;
+  font-size: 20px;
+}
+.delivery .delivery-header h2 {
+  font-family: 'Kudryashev Display';
+  color: black;
+  font-size: 50px;
+}
+.delivery .delivery-body p {
+  font-family: 'Monesta';
+  color: black;
+  font-size: 20px;
+}
+.buy .buy-header h2 {
+  font-family: 'Kudryashev Display';
+  color: black;
+  font-size: 50px;
+}
+.buy .buy-body p {
+  font-family: 'Monesta';
+  color: black;
+  font-size: 20px;
+}
+.discount {
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -ms-flex-wrap: nowrap;
+      flex-wrap: nowrap;
+}
+.discount .discount-content {
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+.discount .discount-content .discount-content-header h2 {
+  font-family: "Kudryashev Display";
+  color: black;
+  font-size: 50px;
+  text-align: center;
+}
+.discount .discount-content .discount-content-body {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+}
+.about .about-header h2 {
+  font-family: 'Kudryashev Display';
+  color: black;
+  font-size: 50px;
+}
+.about .about-body p {
+  font-family: 'Monesta';
+  color: black;
+  font-size: 20px;
+}
+.about .about-body .about-body-instagram .about-body-instagram-header h3 {
+  font-family: 'Kudryashev Display';
+  color: black;
+  font-size: 30px;
+}
+.about .about-body .about-body-instagram .about-body-instagram-body .about-body-instagram-body-slider .item img {
+  width: 250px;
+}
+.shop-cart .shop-cart-header h3 {
+  font-family: 'Kudryashev Display';
+  color: black;
+  font-size: 50px;
+}
+table {
+  width: 100%;
+  font-family: "Lucida Sans Unicode", "Lucida Grande", Sans-Serif;
+  border-collapse: collapse;
+  color: #686461;
+}
+th {
+  border-bottom: 1px solid rgba(0, 0, 0, 0.5);
+  padding: 10px;
+  text-align: left;
+  width: 16%;
+}
+th.namer {
+  width: 52%;
+}
+td {
+  padding: 30px 0px;
+}
+tr {
+  padding: 0px 0px;
+  background: white;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.5);
+}
+.name {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+.name .name-img {
+  margin-right: 20px;
+}
+.name .name-img img {
+  height: 158px;
+}
+.name .name-info .name-info-header h3 {
+  font-family: 'Monesta';
+  font-size: 25px;
+  color: black;
+  margin-top: 0px;
+}
+.name .name-info-body p {
+  font-family: 'Monesta';
+  font-size: 18px;
+  color: rgba(0, 0, 0, 0.7);
+  margin-top: 0px;
+}
+.number {
+  -webkit-user-select: none;
+     -moz-user-select: none;
+      -ms-user-select: none;
+          user-select: none;
+  position: relative;
+  text-align: left;
+  padding: 0;
+  width: 140px;
+  border: 1px solid #ddd;
+  display: inline-block;
+}
+.number-minus,
+.number-plus {
+  position: absolute;
+  top: 0;
+  width: 40px;
+  height: 32px;
+  line-height: 32px;
+  display: block;
+  background: white;
+  font-size: 20px;
+  font-weight: 600;
+  text-align: center;
+  color: black;
+  text-decoration: none;
+  border: none;
+  cursor: pointer;
+}
+.number-minus {
+  left: 0;
+}
+.number-plus {
+  right: 0;
+}
+.number-minus:hover,
+.number-plus:hover {
+  background: #fffcfb;
+}
+.number-minus:active,
+.number-plus:active {
+  background: #e8e4e2;
+}
+.number-text {
+  display: inline-block;
+  font-size: 14px;
+  color: #000;
+  line-height: 32px;
+  height: 32px;
+  padding: 0;
+  margin: 0 0 0 42px;
+  background: #fff;
+  outline: none;
+  border: none;
+  width: 57px;
+  text-align: center;
+}
+.last {
+  height: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: end;
+}
+.last .last-buttons {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
 }
 @font-face {
   font-family: 'Kudryashev Display';
