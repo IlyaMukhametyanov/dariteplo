@@ -6,6 +6,20 @@ $(".your-class").slick({
    dotsClass: "slick-dots  slider__dots",
 });
 
+$(".main-sliderr").slick({
+   dots: true,
+   arrows: false,
+});
+
+$(".product-img").slick({
+   dots: true,
+   arrows: false,
+});
+
+
+
+
+
 
 $(".about-body-instagram-body-slider").slick({
    dots: false,
